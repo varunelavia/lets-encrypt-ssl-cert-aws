@@ -5,7 +5,7 @@ variable "acme_registration_private_key_rsa_bits" {
 }
 
 variable "acme_registration_email_id" {
-  description = "The contact email address for the account, this will be provided to Let's Encrypt."
+  description = "The contact email address for the account that is requesting the certificate from Let's Encrypt."
   type        = string
 }
 
