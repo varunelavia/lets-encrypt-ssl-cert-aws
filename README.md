@@ -48,6 +48,7 @@ No modules.
 |------|-------------|
 | <a name="output_acme_registration_email_id"></a> [acme\_registration\_email\_id](#output\_acme\_registration\_email\_id) | The contact email address for the account that is requesting the certificate from Let's Encrypt |
 | <a name="output_acme_registration_private_key"></a> [acme\_registration\_private\_key](#output\_acme\_registration\_private\_key) | The private key of the account that is requesting the certificate from Let's Encrypt |
+| <a name="output_aws_acm_certificate_arn"></a> [aws\_acm\_certificate\_arn](#output\_aws\_acm\_certificate\_arn) | The ARN of AWS ACM Certificate |
 | <a name="output_ssl_cert_private_key"></a> [ssl\_cert\_private\_key](#output\_ssl\_cert\_private\_key) | Private key content of the SSL certificate |
 | <a name="output_ssl_certificate_csr"></a> [ssl\_certificate\_csr](#output\_ssl\_certificate\_csr) | The Certificate Signing Request contents for the SSL certificate |
 | <a name="output_ssl_certificate_pem"></a> [ssl\_certificate\_pem](#output\_ssl\_certificate\_pem) | The SSL certificate in PEM format. |
