@@ -37,5 +37,5 @@ output "acme_registration_email_id" {
 output "aws_acm_certificate_arn" {
   description = "The ARN of AWS ACM Certificate"
   sensitive   = false
-  value       = var.import_to_aws_acm ? aws_acm_certificate.this.arn : null
+  value       = var.import_to_aws_acm ? aws_acm_certificate.this.0.arn : null
 }
